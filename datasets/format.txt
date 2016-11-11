@@ -1,0 +1,28 @@
+ The stats are currently in the following format.
+
+player team pos gp min fgm fga 3m 3a ftm fta or tr as st to bk pf tc ej ff pts
+
+where:  player = player name  (either: last,first -or- last)
+	team   = team name (3 letter abrev)
+	pos    = player's position (PG, SG, SF, PF, C or ??)
+	gp     = games played
+	min    = total minutes played
+	fgm    = field goals made
+	fga    = field goals attempted
+	3m     = threes made
+	3a     = threes attempted
+	ftm    = free throws made
+	fta    = free throws attempted
+	or     = offensive rebounds
+	tr     = total rebounds
+	as     = assists
+	st     = steals
+	to     = turnovers
+	bk     = blocks
+	ba     = blocked attempts (Note, there is little quality here, so far)
+	pf     = personal fouls
+	dq     = disqualifications
+	pts    = total points
+	tc     = technicals
+	sta    = games started
+
