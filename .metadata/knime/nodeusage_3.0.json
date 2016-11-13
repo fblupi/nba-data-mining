@@ -1,0 +1,36 @@
+
+{
+    "version":"3.2.1.v201608190927",
+    "created":"2016-11-13 22:52",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":73409,
+    "workflowsOpened":3,
+    "remoteWorkflowsOpened":0,
+    "launches":1,
+    "timeSinceLastStart":73409,
+    "crashes":0,
+    "properlyShutDown":false
+}

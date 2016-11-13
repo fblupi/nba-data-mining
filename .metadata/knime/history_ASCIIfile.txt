@@ -1,1 +1,3 @@
+file:/C:/Users/fboli/Documents/GitHub/nba-data-mining/datasets/15-16RD.txt
 knime://knime.workflow/data.all
+knime://knime.workflow/iris.csv
