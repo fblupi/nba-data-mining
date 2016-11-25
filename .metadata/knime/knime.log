@@ -14387,3 +14387,39 @@ Copyright 2009-2016 by David Urbansky, Philipp Katz, Klemens Muthmann
 2016-11-25 18:33:30,403 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\Users\fboli\Documents\GitHub\nba-data-mining\pca\PCA Apply (#7)"
 2016-11-25 18:33:30,436 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\Users\fboli\Documents\GitHub\nba-data-mining\pca\RowID (#8)"
 2016-11-25 18:33:30,474 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/pca"
+2016-11-25 18:35:39,536 : DEBUG : main : NodeContainerEditPart :  :  : Color Manager 2:2 (EXECUTED)
+2016-11-25 18:35:39,547 : DEBUG : main : NodeContainerEditPart :  :  : Scatter Plot 2:3 (EXECUTED)
+2016-11-25 18:35:44,291 : DEBUG : main : OpenViewAction :  :  : Open Node View Scatter Plot (#0)
+2016-11-25 18:35:44,348 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter : Scatter Plot : 2:3 : x column changed: Team
+2016-11-25 18:35:44,360 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter : Scatter Plot : 2:3 : y column changed: PS
+2016-11-25 18:35:44,377 : DEBUG : AWT-EventQueue-0 : DefaultVisualizationNodeModel :  :  : Registering view at model (total count 1)
+2016-11-25 18:35:50,001 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: FGM
+2016-11-25 18:35:51,752 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: FGA
+2016-11-25 18:35:54,256 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: 3M
+2016-11-25 18:35:55,969 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: 3A
+2016-11-25 18:36:41,784 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: Team
+2016-11-25 18:36:46,960 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: PTS
+2016-11-25 18:36:55,408 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: +/-
+2016-11-25 18:41:44,937 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: Min
+2016-11-25 18:41:49,568 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: TR
+2016-11-25 18:42:31,288 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: FGM
+2016-11-25 18:42:34,336 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: FGA
+2016-11-25 18:44:41,872 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: BK
+2016-11-25 18:44:45,297 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: BK
+2016-11-25 18:44:53,664 : DEBUG : AWT-EventQueue-0 : DefaultVisualizationNodeModel :  :  : Unregistering view from model (0 remaining).
+2016-11-25 18:44:55,177 : DEBUG : main : NodeContainerEditPart :  :  : Scatter Plot 2:3 (EXECUTED)
+2016-11-25 18:44:55,184 : DEBUG : main : NodeContainerEditPart :  :  : Color Manager 2:2 (EXECUTED)
+2016-11-25 18:44:56,960 : DEBUG : main : NodeContainerEditPart :  :  : Color Manager 2:2 (EXECUTED)
+2016-11-25 18:44:56,968 : DEBUG : main : NodeContainerEditPart :  :  : File Reader 2:1 (EXECUTED)
+2016-11-25 18:44:58,691 : DEBUG : main : OpenPortViewAction :  :  : Open Port View File Reader (#1)
+2016-11-25 18:44:58,725 : DEBUG : AWT-EventQueue-0 : Buffer : File Reader : 2:1 : Opening input stream on file "C:\Users\fboli\AppData\Local\Temp\knime_preprocesamient25801\knime_container_20161125_3104468074116077086.bin.gz", 1 open streams
+2016-11-25 18:46:30,208 : DEBUG : main : NodeContainerEditPart :  :  : File Reader 2:1 (EXECUTED)
+2016-11-25 18:46:30,219 : DEBUG : main : NodeContainerEditPart :  :  : Scatter Plot 2:3 (EXECUTED)
+2016-11-25 18:46:37,963 : DEBUG : main : OpenViewAction :  :  : Open Node View Scatter Plot (#0)
+2016-11-25 18:46:38,009 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter : Scatter Plot : 2:3 : x column changed: Team
+2016-11-25 18:46:38,024 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter : Scatter Plot : 2:3 : y column changed: PS
+2016-11-25 18:46:38,041 : DEBUG : AWT-EventQueue-0 : DefaultVisualizationNodeModel :  :  : Registering view at model (total count 1)
+2016-11-25 18:46:42,248 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : x column changed: Min
+2016-11-25 18:46:45,360 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: ST
+2016-11-25 18:46:50,872 : DEBUG : AWT-EventQueue-0 : TwoColumnPlotter :  :  : y column changed: AS
+2016-11-25 18:46:53,048 : DEBUG : AWT-EventQueue-0 : DefaultVisualizationNodeModel :  :  : Unregistering view from model (0 remaining).

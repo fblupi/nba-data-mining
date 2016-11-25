@@ -26,3 +26,9 @@ where:  player = player name  (either: last,first -or- last)
 	tc     = technicals
 	sta    = games started
 
+
+Pivot (C): rojo
+Ala-Pivot (PF): rosa
+Alero (SF): amarillo
+Escolta (SG): verde
+Base (PG): azul
