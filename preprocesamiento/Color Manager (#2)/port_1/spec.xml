@@ -305,12 +305,12 @@
 </config>
 </config>
 </config>
-<entry key="SF" type="xint" value="-65536"/>
-<entry key="SG" type="xint" value="-256"/>
-<entry key="C" type="xint" value="-16711936"/>
-<entry key="PF" type="xint" value="-16711681"/>
-<entry key="PG" type="xint" value="-16776961"/>
-<entry key="??" type="xint" value="-65281"/>
+<entry key="SF" type="xint" value="-256"/>
+<entry key="SG" type="xint" value="-13369549"/>
+<entry key="C" type="xint" value="-65536"/>
+<entry key="PF" type="xint" value="-65281"/>
+<entry key="PG" type="xint" value="-16711681"/>
+<entry key="??" type="xint" value="-13369549"/>
 </config>
 </config>
 </config>

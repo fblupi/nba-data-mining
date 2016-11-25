@@ -6,6 +6,86 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":401,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.mine.pca.PCAComputeNodeFactory#PCA Compute"
+            },
+            {
+                "id":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "nrexecs":7,
+                "nrfails":0,
+                "exectime":482,
+                "nrcreated":3,
+                "successor":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot"
+            },
+            {
+                "id":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot",
+                "nrexecs":5,
+                "nrfails":0,
+                "exectime":724,
+                "nrcreated":3,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.plotter.box.BoxPlotNodeFactory#Box Plot",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":258,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.condbox.ConditionalBoxPlotNodeFactory#Conditional Box Plot",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":40,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.plotter.line.LinePlotterNodeFactory#Line Plot",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":63,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":10056,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.histogram.node.HistogramNodeFactory#Histogram (interactive)",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":171,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.valcount.ValueCounterNodeFactory#Value Counter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":62,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":284,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer"
+            },
+            {
+                "id":"org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer",
                 "nrexecs":0,
                 "nrfails":0,
                 "exectime":0,
@@ -13,12 +93,36 @@
                 "successor":"n/a"
             },
             {
-                "id":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "id":"org.knime.base.node.mine.pca.PCANodeFactory#PCA",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":214,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
+            },
+            {
+                "id":"org.knime.base.node.mine.pca.PCAComputeNodeFactory#PCA Compute",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":66,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.mine.pca.PCAApplyNodeFactory#PCA Apply"
+            },
+            {
+                "id":"org.knime.base.node.mine.pca.PCAApplyNodeFactory#PCA Apply",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":231,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2#RowID"
+            },
+            {
+                "id":"org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2#RowID",
                 "nrexecs":0,
                 "nrfails":0,
                 "exectime":0,
                 "nrcreated":1,
-                "successor":"n/a"
+                "successor":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
             }
         ],
         "metaNodes":{
@@ -26,11 +130,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":73409,
-    "workflowsOpened":3,
+    "uptime":2919232,
+    "workflowsOpened":10,
     "remoteWorkflowsOpened":0,
-    "launches":1,
-    "timeSinceLastStart":73409,
+    "launches":3,
+    "timeSinceLastStart":2978839,
     "crashes":0,
     "properlyShutDown":false
 }
