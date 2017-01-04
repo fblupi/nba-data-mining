@@ -1,7 +1,8 @@
 # Estadísticas NBA
 
->> Francisco Javier Bolívar Lupiáñez
->> José Manuel Moya Baena
+> Francisco Javier Bolívar Lupiáñez
+
+> José Manuel Moya Baena
 
 ## Introducción
 
@@ -58,7 +59,7 @@ Usando el nodo *statistics* de KNIME directamente sobre nuestro *dataset* podemo
 
 Con este podemos ver para cada columna el valor mínimo, máximo, media, desviación típica, asimetría estadística, curtosis, datos perdidos, datos con valor infinito y un histograma con las repeticiones de cada valor.
 
-![img/preprocesamiento/statistics.png](Estadísticas)
+!["Estadísticas"](img/preprocesamiento/statistics.png)
 
 Aquí ya podemos observar como datos como tiros intentados y tiros anotados (de campo, de tres y libres) tienen bastante parecido y como muchas columnas tienen una enorme asimetría probablemente provocada por la diferencia que hay entre los que juegan muchos minutos y los que juegan pocos ya que a más minutos se jueguen mayor será la cantidad de puntos, rebotes o asistencias realizadas. Esto nos puede llevar a empezar a pensar en que una columna puntos, asistencias, rebotes... por minuto sea mucho más significativa para realizar comparaciones. Siempre teniendo en cuenta que a más minutos juega un jugador es porque, supuestamente, es más bueno.
 
@@ -66,7 +67,7 @@ Aquí ya podemos observar como datos como tiros intentados y tiros anotados (de 
 
 A continuación vamos a ver los diagramas de cajas de cada una de las columnas usando el nodo *box plot* de KNIME.
 
-![img/preprocesamiento/boxplot-all.png](Diagrama de cajas)
+!["Diagrama de cajas"](img/preprocesamiento/boxplot-all.png)
 
 Las sospechas de lo desequilibradas que podrían estar algunas de las columnas se ven despejadas con este diagrama donde vemos que la mayoría de los datos están muy desequilibrados ya que casi todos tienen su mínimo en cero (algún jugador que haya jugado muy pocos minutos y no ha podido sumar en su casillero personal de esa estadística) y muchos que despuntan por arriba (aquellos que juegan muchos minutos y además los rentan con buenos números).
 
@@ -74,7 +75,7 @@ Las sospechas de lo desequilibradas que podrían estar algunas de las columnas s
 
 Algunos datos podrían ser eliminados o sustituidos por otros. Ya hemos visto que los minutos influyen mucho en el resto de estadísticas. Con la matriz de correlación lo vamos a ver más claramente:
 
-![img/preprocesamiento/correlation-matrix-original-dataset.png](Matriz de correlación)
+!["Matriz de correlación"](img/preprocesamiento/correlation-matrix-original-dataset.png)
 
 Efectivamente vemos como la columna de los puntos se ve tremendamente influenciada con los minutos alcanzando una correlación cercana a uno y a su vez influye en puntos de campo intentados y anotados.
 
@@ -101,7 +102,7 @@ Y no solo los puntos se ven influenciados por los minutos. Otro dato que, lógic
 
 La matriz de correlación con los nuevos datos es la siguiente:
 
-![img/preprocesamiento/correlation-matrix-new-dataset.png](Nueva matriz de correlación)
+!["Nueva matriz de correlación"](img/preprocesamiento/correlation-matrix-new-dataset.png)
 
 Donde se sigue viendo una relación fuerte entre minutos y partidos de inicio y entre porcentaje de tiros de tres y anotados (algo que no se ve tan claramente en los tiros libres).
 
@@ -125,6 +126,6 @@ A continuación se ha realizado un *scatter plot* interactivo para poder compara
 
 ##### Relación Equipo y +/-
 
-![img/preprocesamiento/scatter-plot-balance](Equipo +/-)
+!["Equipo +/-"](img/preprocesamiento/scatter-plot-balance.png)
 
 Con este gráfico se puede ver claramente quién fue el mejor equipo, ya que es el que acumula el mejor ratio puntos a favor/en contra. El mejor equipo es Golden State Warriors (GSW), con una diferencia considerable sobre Cleveland Cavalieres (CLE), San Antonio Spurs (SAN), Oklahoma-City Thunder (OKL) y Los Ángeles Clippers (LAC). Los peores serían Los Ángeles Lakers (LAL), seguido de cerca por Philadelphia 76ers (PHI) y con algo de diferencia sobre Phoenix Suns (PHO) y Brooklin Nets (BRO).
