@@ -1,0 +1,2 @@
+C:\Users\fboli\Documents\GitHub\nba-data-mining\datasets\NBA1516_2.csv
+C:\Users\fboli\Documents\GitHub\nba-data-mining\datasets\NBA1516.csv
