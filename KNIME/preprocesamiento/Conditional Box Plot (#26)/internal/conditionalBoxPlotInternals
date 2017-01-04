@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="conditionalBoxPlotInternals">
+<entry key="nrOfCols" type="xint" value="5"/>
+<config key="col0">
+<entry key="column_name" type="xstring" value="C"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.16758747697974216"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.7786191536748329"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col1">
+<entry key="column_name" type="xstring" value="PF"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.1757142857142857"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.7083333333333334"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col2">
+<entry key="column_name" type="xstring" value="PG"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.17769607843137256"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.878003696857671"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col3">
+<entry key="column_name" type="xstring" value="SF"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.1511627906976744"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.7873496313542879"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col4">
+<entry key="column_name" type="xstring" value="SG"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.145"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.7612944569048382"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="numColSpec">
+<entry key="column_name" type="xstring" value="PTS"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.145"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.878003696857671"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="statsC">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.16758747697974216"/>
+<entry key="1" type="xdouble" value="0.16758747697974216"/>
+<entry key="2" type="xdouble" value="0.314070351758794"/>
+<entry key="3" type="xdouble" value="0.3769230769230769"/>
+<entry key="4" type="xdouble" value="0.48080438756855576"/>
+<entry key="5" type="xdouble" value="0.6124401913875598"/>
+<entry key="6" type="xdouble" value="0.7786191536748329"/>
+</config>
+<config key="mildKeysC0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="cousins,demarcus"/>
+</config>
+<config key="mildC">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="0.7786191536748329"/>
+</config>
+<config key="extremeC">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsPF">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.1757142857142857"/>
+<entry key="1" type="xdouble" value="0.1757142857142857"/>
+<entry key="2" type="xdouble" value="0.31226199543031224"/>
+<entry key="3" type="xdouble" value="0.39257188498402557"/>
+<entry key="4" type="xdouble" value="0.46772228989037756"/>
+<entry key="5" type="xdouble" value="0.6859657248726262"/>
+<entry key="6" type="xdouble" value="0.7083333333333334"/>
+</config>
+<config key="mildKeysPF0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="beasley,michael"/>
+</config>
+<config key="mildPF">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="0.7083333333333334"/>
+</config>
+<config key="extremePF">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsPG">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.17769607843137256"/>
+<entry key="1" type="xdouble" value="0.17769607843137256"/>
+<entry key="2" type="xdouble" value="0.32275132275132273"/>
+<entry key="3" type="xdouble" value="0.4006182043167803"/>
+<entry key="4" type="xdouble" value="0.483271375464684"/>
+<entry key="5" type="xdouble" value="0.7029554807332585"/>
+<entry key="6" type="xdouble" value="0.878003696857671"/>
+</config>
+<config key="mildKeysPG0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="curry,stephen"/>
+</config>
+<config key="mildPG">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="0.878003696857671"/>
+</config>
+<config key="extremePG">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsSF">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.1511627906976744"/>
+<entry key="1" type="xdouble" value="0.1511627906976744"/>
+<entry key="2" type="xdouble" value="0.28308400460299193"/>
+<entry key="3" type="xdouble" value="0.36583522297808013"/>
+<entry key="4" type="xdouble" value="0.4437375745526839"/>
+<entry key="5" type="xdouble" value="0.6626591230551626"/>
+<entry key="6" type="xdouble" value="0.7873496313542879"/>
+</config>
+<config key="mildKeysSF0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="james,lebron"/>
+</config>
+<config key="mildKeysSF1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="durant,kevin"/>
+</config>
+<config key="mildSF">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.7084870848708487"/>
+<entry key="1" type="xdouble" value="0.7873496313542879"/>
+</config>
+<config key="extremeSF">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsSG">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.145"/>
+<entry key="1" type="xdouble" value="0.145"/>
+<entry key="2" type="xdouble" value="0.3070211882010802"/>
+<entry key="3" type="xdouble" value="0.37698174077722935"/>
+<entry key="4" type="xdouble" value="0.46206896551724136"/>
+<entry key="5" type="xdouble" value="0.6655392709507704"/>
+<entry key="6" type="xdouble" value="0.7612944569048382"/>
+</config>
+<config key="mildKeysSG0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="harden,james"/>
+</config>
+<config key="mildSG">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="0.7612944569048382"/>
+</config>
+<config key="extremeSG">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="conditionalBoxPlotInternals">
+<entry key="nrOfCols" type="xint" value="5"/>
+<config key="col0">
+<entry key="column_name" type="xstring" value="C"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="7.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col1">
+<entry key="column_name" type="xstring" value="PF"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="4.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col2">
+<entry key="column_name" type="xstring" value="PG"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="2.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col3">
+<entry key="column_name" type="xstring" value="SF"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="7.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="col4">
+<entry key="column_name" type="xstring" value="SG"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="5.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="numColSpec">
+<entry key="column_name" type="xstring" value="DQ"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="7"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="statsC">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="1.0"/>
+<entry key="4" type="xdouble" value="2.0"/>
+<entry key="5" type="xdouble" value="5.0"/>
+<entry key="6" type="xdouble" value="7.0"/>
+</config>
+<config key="mildKeysC0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="cousins,demarcus"/>
+</config>
+<config key="mildC">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="7.0"/>
+</config>
+<config key="extremeC">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsPF">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="1.0"/>
+<entry key="5" type="xdouble" value="2.0"/>
+<entry key="6" type="xdouble" value="4.0"/>
+</config>
+<config key="mildKeysPF0">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="plumlee,mason"/>
+<entry key="1" type="xstring" value="zeller,cody"/>
+</config>
+<config key="mildPF">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="4.0"/>
+</config>
+<config key="extremePF">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsPG">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+<entry key="5" type="xdouble" value="0.0"/>
+<entry key="6" type="xdouble" value="2.0"/>
+</config>
+<config key="mildPG">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremeKeysPG0">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xstring" value="holiday,jrue"/>
+<entry key="1" type="xstring" value="rondo,rajon"/>
+<entry key="2" type="xstring" value="rubio,ricky"/>
+<entry key="3" type="xstring" value="smart,marcus"/>
+<entry key="4" type="xstring" value="rose,derrick"/>
+<entry key="5" type="xstring" value="lowry,kyle"/>
+<entry key="6" type="xstring" value="douglas,toney"/>
+<entry key="7" type="xstring" value="nelson,jameer"/>
+<entry key="8" type="xstring" value="thomas,isaiah"/>
+<entry key="9" type="xstring" value="mudiay,emmanuel"/>
+<entry key="10" type="xstring" value="bledsoe,eric"/>
+<entry key="11" type="xstring" value="calderon,jose"/>
+<entry key="12" type="xstring" value="lavine,zach"/>
+<entry key="13" type="xstring" value="clarkson,jordan"/>
+<entry key="14" type="xstring" value="neto,raul"/>
+<entry key="15" type="xstring" value="beverley,patrick"/>
+<entry key="16" type="xstring" value="harris,devin"/>
+</config>
+<config key="extremeKeysPG1">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="westbrook,russel"/>
+<entry key="1" type="xstring" value="teague,jeff"/>
+<entry key="2" type="xstring" value="galloway,langsto"/>
+<entry key="3" type="xstring" value="price,ronnie"/>
+<entry key="4" type="xstring" value="bradley,avery"/>
+</config>
+<config key="extremePG">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="1.0"/>
+<entry key="1" type="xdouble" value="2.0"/>
+</config>
+<config key="statsSF">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="1.0"/>
+<entry key="5" type="xdouble" value="2.0"/>
+<entry key="6" type="xdouble" value="7.0"/>
+</config>
+<config key="mildKeysSF0">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="young,thaddeus"/>
+<entry key="1" type="xstring" value="tucker,p.j."/>
+</config>
+<config key="mildKeysSF1">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="covington,robert"/>
+<entry key="1" type="xstring" value="crowder,jae"/>
+<entry key="2" type="xstring" value="fournier,evan"/>
+</config>
+<config key="mildSF">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="3.0"/>
+<entry key="1" type="xdouble" value="4.0"/>
+</config>
+<config key="extremeKeysSF0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="antetokounmpo,gi"/>
+</config>
+<config key="extremeSF">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="7.0"/>
+</config>
+<config key="statsSG">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+<entry key="5" type="xdouble" value="0.0"/>
+<entry key="6" type="xdouble" value="5.0"/>
+</config>
+<config key="mildSG">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremeKeysSG0">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xstring" value="butler,jimmy"/>
+<entry key="1" type="xstring" value="dudley,jared"/>
+<entry key="2" type="xstring" value="hinrich,kirk"/>
+<entry key="3" type="xstring" value="lamb,jeremy"/>
+<entry key="4" type="xstring" value="brewer,corey"/>
+<entry key="5" type="xstring" value="rivers,austin"/>
+<entry key="6" type="xstring" value="afflalo,arron"/>
+<entry key="7" type="xstring" value="rush,brandon"/>
+<entry key="8" type="xstring" value="dragic,goran"/>
+<entry key="9" type="xstring" value="johnson,wesley"/>
+<entry key="10" type="xstring" value="brown,markel"/>
+<entry key="11" type="xstring" value="green,gerald"/>
+<entry key="12" type="xstring" value="smith,j.r."/>
+<entry key="13" type="xstring" value="matthews,wesley"/>
+<entry key="14" type="xstring" value="harden,james"/>
+<entry key="15" type="xstring" value="mayo,o.j."/>
+<entry key="16" type="xstring" value="allen,tony"/>
+<entry key="17" type="xstring" value="shumpert,iman"/>
+<entry key="18" type="xstring" value="sampson,jakarr"/>
+<entry key="19" type="xstring" value="williams,louis"/>
+</config>
+<config key="extremeKeysSG1">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="thompson,hollis"/>
+<entry key="1" type="xstring" value="bazemore,kent"/>
+</config>
+<config key="extremeKeysSG2">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="hood,rodney"/>
+<entry key="1" type="xstring" value="temple,garrett"/>
+</config>
+<config key="extremeKeysSG3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="booker,devin"/>
+</config>
+<config key="extremeSG">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="1.0"/>
+<entry key="1" type="xdouble" value="2.0"/>
+<entry key="2" type="xdouble" value="3.0"/>
+<entry key="3" type="xdouble" value="5.0"/>
+</config>
+</config>

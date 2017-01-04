@@ -96,14 +96,14 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 19, Cols: 19"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 17, Cols: 17"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
-<entry key="port_object_summary" type="xstring" value="Correlation values on 19 columns"/>
+<entry key="port_object_summary" type="xstring" value="Correlation values on 17 columns"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -121,6 +121,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ab6c8075-40c4-4455-a895-23d7d8e1b149"/>
+<entry key="file_store_id" type="xstring" value="33b824b7-e890-4b85-865f-f9d8a1859e17"/>
 </config>
 </config>

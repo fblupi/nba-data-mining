@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="fboli"/>
 <entry key="authored-when" type="xstring" value="2017-01-04 18:10:59 +0100"/>
 <entry key="lastEdited-by" type="xstring" value="fboli"/>
-<entry key="lastEdited-when" type="xstring" value="2017-01-04 18:20:27 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2017-01-04 19:54:00 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -230,10 +230,26 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="84"/>
-<entry key="1" type="xint" value="277"/>
+<entry key="0" type="xint" value="4"/>
+<entry key="1" type="xint" value="297"/>
 <entry key="2" type="xint" value="69"/>
 <entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_37">
+<entry key="id" type="xint" value="37"/>
+<entry key="node_settings_file" type="xstring" value="Numeric Row Splitter (#37)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="84"/>
+<entry key="1" type="xint" value="297"/>
+<entry key="2" type="xint" value="83"/>
+<entry key="3" type="xint" value="93"/>
 </config>
 </config>
 </config>
@@ -313,6 +329,12 @@
 </config>
 <config key="connection_12">
 <entry key="sourceID" type="xint" value="36"/>
+<entry key="destID" type="xint" value="37"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_13">
+<entry key="sourceID" type="xint" value="37"/>
 <entry key="destID" type="xint" value="27"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>

@@ -12,7 +12,7 @@ Es por ello que vemos en este un buen campo para realizar minería de datos, por
 
 ### *Dataset*
 
-El *dataset* escogido cuenta con los siguientes datos:
+El *dataset* escogido contiene las estadísticas de los 476 jugadores que jugaron durante la temporada 2015/2016 algún partido en la NBA. Las estadísticas cuentan con los siguientes datos:
 
 * *Player*: Nombre del jugador
 * *Team*: Iniciales del equipo donde juega
@@ -67,7 +67,7 @@ Aquí ya podemos observar como datos como tiros intentados y tiros anotados (de 
 
 A continuación vamos a ver los diagramas de cajas de cada una de las columnas usando el nodo *box plot* de KNIME.
 
-!["Diagrama de cajas"](img/preprocesamiento/boxplot-all.png)
+!["Diagrama de cajas"](img/preprocesamiento/boxplot.png)
 
 Las sospechas de lo desequilibradas que podrían estar algunas de las columnas se ven despejadas con este diagrama donde vemos que la mayoría de los datos están muy desequilibrados ya que casi todos tienen su mínimo en cero (algún jugador que haya jugado muy pocos minutos y no ha podido sumar en su casillero personal de esa estadística) y muchos que despuntan por arriba (aquellos que juegan muchos minutos y además los rentan con buenos números).
 
@@ -99,18 +99,97 @@ Y no solo los puntos se ven influenciados por los minutos. Otro dato que, lógic
 * Bloqueos por bloqueos por minuto.
 * Faltas personales por faltas personales por minuto.
 * Puntos por puntos por minuto.
+* Partidos de inicio será borrado por su enorme relación con los minutos.
+
+También eliminaré aquellas filas con jugadores que hayan jugado menos de 100 minutos ya que pueden haber jugado tan pocos que todos los tiros que hayan hecho los hayan metido y salgan como si hubiesen hecho mucho aunque en realidad apenas han aportado porque han jugado poco. Con este filtro se ha pasado de las 476 filas iniciales a 431.
 
 La matriz de correlación con los nuevos datos es la siguiente:
 
 !["Nueva matriz de correlación"](img/preprocesamiento/correlation-matrix-new-dataset.png)
 
-Donde se sigue viendo una relación fuerte entre minutos y partidos de inicio y entre porcentaje de tiros de tres y anotados (algo que no se ve tan claramente en los tiros libres).
+Donde ya no se ven relaciones tan fuertes entre variables.
 
 #### Diagrama de cajas
 
 Mediante *box plot* agrupando por posiciones vamos a ver si algún dato tiene relación con alguna posición en particular para tenerlo en cuenta posteriormente a la hora de realizar agrupaciones.
 
-TODO
+##### Tiros de 3 anotados
+
+!["Box Splot 3M"](img/preprocesamiento/boxplot-3m.png)
+
+Lala
+
+##### Porcentaje tiros de 3
+
+!["Box Splot 3A"](img/preprocesamiento/boxplot-3a.png)
+
+Lala
+
+##### Tiros libres anotados
+
+!["Box Splot FTM"](img/preprocesamiento/boxplot-ftm.png)
+
+Lala
+
+##### Porcentaje tiros libres
+
+!["Box Splot FTA"](img/preprocesamiento/boxplot-fta.png)
+
+Lala
+
+##### Rebotes
+
+!["Box Splot TR"](img/preprocesamiento/boxplot-tr.png)
+
+Lala
+
+##### Asistencias
+
+!["Box Splot AS"](img/preprocesamiento/boxplot-as.png)
+
+Lala
+
+##### Robos
+
+!["Box Splot ST"](img/preprocesamiento/boxplot-st.png)
+
+Lala
+
+##### Pérdidas
+
+!["Box Splot TO"](img/preprocesamiento/boxplot-to.png)
+
+Lala
+
+##### Bloqueos
+
+!["Box Splot BK"](img/preprocesamiento/boxplot-bk.png)
+
+Lala
+
+##### Faltas personales
+
+!["Box Splot PF"](img/preprocesamiento/boxplot-pf.png)
+
+Lala
+
+##### Descalificaciones
+
+!["Box Splot DQ"](img/preprocesamiento/boxplot-dq.png)
+
+Lala
+
+##### Puntos
+
+!["Box Splot PTS"](img/preprocesamiento/boxplot-pts.png)
+
+Lala
+
+##### Faltas técnicas
+
+!["Box Splot TC"](img/preprocesamiento/boxplot-tc.png)
+
+Lala
 
 #### Diagrama de dispersión
 
