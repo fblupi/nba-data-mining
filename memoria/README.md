@@ -117,79 +117,109 @@ Mediante *box plot* agrupando por posiciones vamos a ver si algún dato tiene re
 
 !["Box Splot 3M"](img/preprocesamiento/boxplot-3m.png)
 
-Lala
+Aquí se puede observar como los pívot apenas anotan tiros de tres salvo casos aislados. Los ala-pívot tampoco suelen anotar mucho. Mientras que los bases, escoltas y aleros suelen anotar más o menos por igual.
 
 ##### Porcentaje tiros de 3
 
 !["Box Splot 3A"](img/preprocesamiento/boxplot-3a.png)
 
-Lala
+En cuanto al porcentaje, muchos pivots y ala-pívots ni siquiera tiran y los que tiran lo hacen con un porcentaje muy bajo salvo casos aislados. Al igual que con los anotados, las otras tres posiciones siguen más o menos el mismo comportamiento.
 
 ##### Tiros libres anotados
 
 !["Box Splot FTM"](img/preprocesamiento/boxplot-ftm.png)
 
-Lala
+En este dato el comportamiento por posición no varía mucho. Si anotan tiros libres es porque les hacen faltas, lo cual indica que no se cometen faltas sobre jugadores de un puesto en particular.
 
 ##### Porcentaje tiros libres
 
 !["Box Splot FTA"](img/preprocesamiento/boxplot-fta.png)
 
-Lala
+En cuanto al porcentaje de aciertos desde la línea de personal, los pívots son los peores tiradores y los bases los mejores, pero no difieren tanto los unos de los otros.
 
 ##### Rebotes
 
 !["Box Splot TR"](img/preprocesamiento/boxplot-tr.png)
 
-Lala
+Este dato si es muy determinante, se puede observar claramente como un jugador que atrape muchos rebotes va a ser muy posiblemente pívot o ala-pívot y muy poco probable será que sea base o escolta.
 
 ##### Asistencias
 
 !["Box Splot AS"](img/preprocesamiento/boxplot-as.png)
 
-Lala
+En cuanto a las asistencias el comportamiento es casi el opuesto. Los bases son los que más asistencias reparten on una diferencia considerable sobre el resto. Hay algunos casos de escoltas y aleros que reparten tanto como ellos, pero son casos aislados.
 
 ##### Robos
 
 !["Box Splot ST"](img/preprocesamiento/boxplot-st.png)
 
-Lala
+En el apartado de robos se vuelve a ver más equilibrio pero con dominio de los bases seguidos de aleros y escoltas.
 
 ##### Pérdidas
 
 !["Box Splot TO"](img/preprocesamiento/boxplot-to.png)
 
-Lala
+En las pérdidas también hay un ligero dominio de los bases. El resto de posiciones apenas difieren.
 
 ##### Bloqueos
 
 !["Box Splot BK"](img/preprocesamiento/boxplot-bk.png)
 
-Lala
+En los bloqueos el comportamiento es similar al de los rebotes con dominio de las posiciones que juegan en la pintura (pívots y ala pívots).
 
 ##### Faltas personales
 
 !["Box Splot PF"](img/preprocesamiento/boxplot-pf.png)
 
-Lala
+Las faltas personales también parecen ser cometidas más por los hombres grandes (pívots y ala pívots) pero no con una diferencia considerable.
 
 ##### Descalificaciones
 
 !["Box Splot DQ"](img/preprocesamiento/boxplot-dq.png)
 
-Lala
+Al haber pocas descalificaciones a lo largo de la temporada no es un dato muy relevante a la hora de caracterizar una posición pero se ve como los pívot son los que más aportan en este dato.
 
 ##### Puntos
 
 !["Box Splot PTS"](img/preprocesamiento/boxplot-pts.png)
 
-Lala
+En los puntos la diferencia tampoco es significativa entre posiciones comportándose casi por igual
 
 ##### Faltas técnicas
 
 !["Box Splot TC"](img/preprocesamiento/boxplot-tc.png)
 
-Lala
+Con las faltas técnicas pasa algo parecido a lo que pasa con las descalificaciones, al haber tan pocas no va a influir mucho a la hora de caracterizar una posición y más viendo como hay un reparto equilibrado con los pocos datos que hay.
+
+**RESUMEN INFLUENCIAS:**
+
+* Base:
+  * Muy positivas: Asistencias, robos
+  * Positivas: Tiros libres anotados, porcentaje tiros libres, pérdidas
+  * Negativas: -
+  * Muy negativas: Rebotes, bloqueos
+* Escolta:
+  * Muy positivas: -
+  * Positivas: Porcentaje tiros de tres
+  * Negativas: Rebotes
+  * Muy negativas: -
+* Alero:
+  * Muy positivas: -
+  * Positivas: -
+  * Negativas: -
+  * Muy negativas: -
+* Ala pívot:
+  * Muy positivas: Rebotes, bloqueos
+  * Positivas: Faltas personales
+  * Negativas: Tiros de 3 anotados, porcentaje tiros de 3
+  * Muy negativas: -
+* Pívot:
+  * Muy positivas: Rebotes, bloqueos
+  * Positivas: Faltas personales, descalificaciones
+  * Negativas: Porcentaje tiros de 3, porcentaje tiros libres
+  * Muy negativas: Tiros de tres anotados
+
+No se ha encontrado ningún atributo determinante para el alero y es que es una posición muy polivalente que aporta algo en todos los aspectos del juego.
 
 #### Diagrama de dispersión
 
@@ -208,3 +238,15 @@ A continuación se ha realizado un *scatter plot* interactivo para poder compara
 !["Equipo +/-"](img/preprocesamiento/scatter-plot-balance.png)
 
 Con este gráfico se puede ver claramente quién fue el mejor equipo, ya que es el que acumula el mejor ratio puntos a favor/en contra. El mejor equipo es Golden State Warriors (GSW), con una diferencia considerable sobre Cleveland Cavalieres (CLE), San Antonio Spurs (SAN), Oklahoma-City Thunder (OKL) y Los Ángeles Clippers (LAC). Los peores serían Los Ángeles Lakers (LAL), seguido de cerca por Philadelphia 76ers (PHI) y con algo de diferencia sobre Phoenix Suns (PHO) y Brooklin Nets (BRO).
+
+##### Asistencias y robos
+
+!["Asistencias robos"](img/preprocesamiento/scatter-plot-as-st.png)
+
+Previamente vimos que las asistencias y los robos eran las características positivas más determinantes de los bases y vemos en este gráfico de dispersión como efectivamente se cumple.
+
+##### Rebotes y bloqueos
+
+!["Rebotes bloqueos"](img/preprocesamiento/scatter-plot-tr-bk.png)
+
+Al igual que las asistencias y los robos eran las características positivas más influyentes para los bases, para los pívots y ala pívots lo eran los rebotes y bloqueos y vemos que incluso se diferencia mejor el grupo que con asistencias y robos.
