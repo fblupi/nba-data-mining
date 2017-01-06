@@ -6,26 +6,26 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
-                "nrexecs":13,
+                "nrexecs":14,
                 "nrfails":2,
-                "exectime":3118,
+                "exectime":3620,
                 "nrcreated":3,
-                "successor":"org.knime.base.node.preproc.rowsplit.NumericRowSplitterNodeFactory#Numeric Row Splitter"
+                "successor":"org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer"
             },
             {
                 "id":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
-                "nrexecs":15,
+                "nrexecs":17,
                 "nrfails":0,
-                "exectime":5444,
-                "nrcreated":3,
-                "successor":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot"
+                "exectime":5603,
+                "nrcreated":4,
+                "successor":"org.knime.base.node.viz.table.TableNodeFactory#Interactive Table"
             },
             {
                 "id":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot",
-                "nrexecs":14,
+                "nrexecs":15,
                 "nrfails":0,
-                "exectime":3487,
-                "nrcreated":4,
+                "exectime":3573,
+                "nrcreated":5,
                 "successor":"n/a"
             },
             {
@@ -171,6 +171,38 @@
                 "exectime":67,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":160,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means"
+            },
+            {
+                "id":"org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":1506,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer"
+            },
+            {
+                "id":"org.knime.base.node.viz.table.TableNodeFactory#Interactive Table",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":101,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":312,
+                "nrcreated":2,
+                "successor":"n/a"
             }
         ],
         "metaNodes":{
@@ -178,11 +210,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4491947,
-    "workflowsOpened":26,
+    "uptime":3683689,
+    "workflowsOpened":27,
     "remoteWorkflowsOpened":0,
-    "launches":7,
-    "timeSinceLastStart":13476396,
+    "launches":9,
+    "timeSinceLastStart":1014825,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }
