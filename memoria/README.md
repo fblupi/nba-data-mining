@@ -289,8 +289,14 @@ A la hora de clasificar se va a intentar predecir la posición de un jugador a p
 
 #### Árbol de decisión
 
-El primer enfoque que se va a realizar es utilizando un árbol de decisión usando los nodos de KNIME *Decision Tree Learner* y *Decision Tree Predictor* usando como conjunto de entrenamiento 331 valores y 100 de test. El resultado ha sido más o menos el esperado con una precisión del 57%.
+El primer enfoque que se va a realizar es utilizando un árbol de decisión usando los nodos de KNIME *Decision Tree Learner* y *Decision Tree Predictor* usando como conjunto de entrenamiento 331 valores y 100 de test. El resultado ha sido más o menos el esperado con una precisión del 58%.
 
-!["Clasificación"](img/clasificacion/decision-tree-predictor-confusion-matrix.png)
+!["Clasificación árbol de decisión"](img/clasificacion/decision-tree-predictor-confusion-matrix.png)
 
-Los errores que nos encontramos son en la mayoría de las ocasiones comprensibles por su parecido con la posición equivocada. En caso de los pívot las únicas confusiones han sido con ala-pívots y en el caso de los bases casi todas las confusiones (exceptuando una) ha sido con escoltas. La posición peor clasificada ha sido la de alero ya que, como hemos indicado reiteradamente, es muy complicada de predecir por ser jugadores muy polivalentes con cualidades y estadísticas individuales muy dispares los unos de los otros.
+Los errores que nos encontramos son en la mayoría de las ocasiones comprensibles por su parecido con la posición equivocada. En caso de los pívot las únicas confusiones han sido con ala-pívots y en el caso de los bases casi todas las confusiones ha sido con escoltas. La posición peor clasificada ha sido la de alero ya que, como hemos indicado reiteradamente, es muy complicada de predecir por ser jugadores muy polivalentes con cualidades y estadísticas individuales muy dispares los unos de los otros.
+
+#### *Naive-Bayes*
+
+Tras probar el árbol de decisión pasamos a probar cómo funciona el método de *Naive-Bayes* usando los nodos de KNIME *Naive Bayes Learner* y *Naive Bayes Predictor* y haciendo el mismo particionamiento obteniendo un resultado algo mejor de un 61%.
+
+!["Clasificación Naive-Bayes"](img/clasificacion/naive-bayes-predictor-confusion-matrix.png)
