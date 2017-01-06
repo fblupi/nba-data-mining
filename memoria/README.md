@@ -250,3 +250,23 @@ Previamente vimos que las asistencias y los robos eran las características posi
 !["Rebotes bloqueos"](img/preprocesamiento/scatter-plot-tr-bk.png)
 
 Al igual que las asistencias y los robos eran las características positivas más influyentes para los bases, para los pívots y ala pívots lo eran los rebotes y bloqueos y vemos que incluso se diferencia mejor el grupo que con asistencias y robos.
+
+### Agrupamiento
+
+Como hemos visto, hay cinco posiciones en el baloncesto, pero algunas de ellas se intercambian durante el partido y un mismo jugador puede jugar en varias posiciones durante una temporada por lo que dividir en tres posiciones puede resultar una tarea muy complicada. Por tanto, vamos a intentar agrupar en tres (las mismas tres en las que a veces se agrupan en algunas webs en lugar de las tres tradicionales):
+
+* *Guard*: Juegan por fuera. Suelen ser los más bajos y agrupa a bases y escoltas aunque algunos aleros a veces ejercen esta función.
+* *Center*: Juegan por dentro. Suelen ser los más altos y agrupa a pívots y ala pívots aunque algunos aleros a veces ejercen esta función.
+* *Forward*: Realizan tareas mixtas, juegan tanto por fuera como por dentro por lo que suelen ser muy polivalentes. Agrupan a jugadores de cualquier posición, pero principalmente aleros y algunos escoltas y ala pívots.
+
+Por tanto, esperamos que al realizar un agrupamiento no haya ningún base en el grupo de *center* ni un pívot en el grupo de *guard*.
+
+#### K-medias
+
+El primer método de agrupamiento que vamos a utilizar es el método de las k-medias usando el nodo *k-Means* de KNIME, usando el *dataset* modificado con estadísticas por minutos y utilizando las variables que vimos que eran más determinantes para definir una posición: tiros de tres anotados y su porcentaje de acierto, rebotes, asistencias, robos, pérdidas, bloqueos, faltas personales y descalificaciones.
+
+!["Puntuación k-medias"](img/agrupamiento/entropy-scorer-k-means.png)
+
+Los resultados del agrupamiento han dado una calidad de 0.331 que podría parecer baja, pero al visualizar la correspondencia posición por grupo generado nos podemos dar cuenta que los grupos generados parecen corresponderse bastante con lo predicho anteriormente. Entre los *center* están casi todos son pívots y ala pívots y la mayoría de los bases están en el grupo de los *guard*. El grupo de *forward* contiene casi todos los aleros y escoltas y algunos bases, pívots y ala pívots.
+
+!["Grupo-posición k-medias"](img/agrupamiento/scatter-plot-k-means.png)

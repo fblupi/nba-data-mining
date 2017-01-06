@@ -616,19 +616,19 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_0"/>
+<entry key="StringCell" type="xstring" value="forward"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_1"/>
+<entry key="StringCell" type="xstring" value="center"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_2"/>
+<entry key="StringCell" type="xstring" value="guard"/>
 </config>
 </config>
 </config>
@@ -638,42 +638,28 @@
 <entry key="color_model_class" type="xstring" value="org.knime.core.data.property.ColorModelNominal"/>
 <config key="color_model">
 <config key="keys">
-<config key="cluster_0">
+<config key="forward">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_0"/>
+<entry key="StringCell" type="xstring" value="forward"/>
 </config>
 </config>
-<config key="cluster_1">
+<config key="center">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_1"/>
+<entry key="StringCell" type="xstring" value="center"/>
 </config>
 </config>
-<config key="cluster_2">
+<config key="guard">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_2"/>
-</config>
-</config>
-<config key="cluster_3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_3"/>
-</config>
-</config>
-<config key="cluster_4">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_4"/>
+<entry key="StringCell" type="xstring" value="guard"/>
 </config>
 </config>
 </config>
-<entry key="cluster_0" type="xint" value="-65536"/>
-<entry key="cluster_1" type="xint" value="-16711936"/>
-<entry key="cluster_2" type="xint" value="-16776961"/>
-<entry key="cluster_3" type="xint" value="-26368"/>
-<entry key="cluster_4" type="xint" value="-3407617"/>
+<entry key="forward" type="xint" value="-65536"/>
+<entry key="center" type="xint" value="-16711936"/>
+<entry key="guard" type="xint" value="-16776961"/>
 </config>
 </config>
 </config>

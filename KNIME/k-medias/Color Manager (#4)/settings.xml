@@ -8,41 +8,27 @@
 <config key="model">
 <entry key="selected_column" type="xstring" value="Cluster"/>
 <entry key="is_nominal" type="xboolean" value="true"/>
-<entry key="cluster_0" type="xint" value="-65536"/>
-<entry key="cluster_1" type="xint" value="-16711936"/>
-<entry key="cluster_2" type="xint" value="-16776961"/>
-<entry key="cluster_3" type="xint" value="-26368"/>
-<entry key="cluster_4" type="xint" value="-3407617"/>
+<entry key="forward" type="xint" value="-65536"/>
+<entry key="center" type="xint" value="-16711936"/>
+<entry key="guard" type="xint" value="-16776961"/>
 <config key="values">
-<entry key="array-size" type="xint" value="5"/>
+<entry key="array-size" type="xint" value="3"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_0"/>
+<entry key="StringCell" type="xstring" value="forward"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_1"/>
+<entry key="StringCell" type="xstring" value="center"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_2"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_3"/>
-</config>
-</config>
-<config key="4">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_4"/>
+<entry key="StringCell" type="xstring" value="guard"/>
 </config>
 </config>
 </config>
@@ -83,6 +69,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ca7bf6e6-1c7f-43ba-83b9-71b0ce0c4b63"/>
+<entry key="file_store_id" type="xstring" value="2b0b4cff-66fa-4690-a88f-32559f4527b6"/>
 </config>
 </config>
