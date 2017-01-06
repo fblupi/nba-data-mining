@@ -1994,3 +1994,8 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.knime.ext.w
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.core.resources 2 2 2017-01-06 17:10:11.853
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-01-06 17:10:11.853
+!MESSAGE The project description file (.project) for 'k-medias' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
