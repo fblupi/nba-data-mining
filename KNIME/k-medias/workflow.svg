@@ -15,13 +15,13 @@
     <g>
         <defs id="defs1">
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
-                <path d="M24 118 L81 118 L81 135 L24 135 L24 118 Z"/>
+                <path d="M24 178 L81 178 L81 195 L24 195 L24 178 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
-                <path d="M132 118 L174 118 L174 135 L132 135 L132 118 Z"/>
+                <path d="M132 178 L174 178 L174 195 L132 195 L132 178 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
-                <path d="M252 118 L294 118 L294 135 L252 135 L252 118 Z"/>
+                <path d="M252 178 L294 178 L294 195 L252 195 L252 178 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
                 <path d="M372 118 L414 118 L414 135 L372 135 L372 118 Z"/>
@@ -36,7 +36,7 @@
                 <path d="M372 238 L414 238 L414 255 L372 255 L372 238 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-                <path d="M18 40 L89 40 L89 57 L18 57 L18 40 Z"/>
+                <path d="M18 100 L89 100 L89 117 L18 117 L18 100 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
                 <path d="M-1 -1 L33 -1 L33 33 L-1 33 L-1 -1 Z"/>
@@ -48,34 +48,34 @@
                 <path d="M-1 -1 L33 -1 L33 13 L-1 13 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-                <path d="M62 73 L89 73 L89 84 L62 84 L62 73 Z"/>
+                <path d="M62 133 L89 133 L89 144 L62 144 L62 133 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-                <path d="M118 40 L188 40 L188 57 L118 57 L118 40 Z"/>
+                <path d="M118 100 L188 100 L188 117 L118 117 L118 100 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-                <path d="M118 73 L145 73 L145 84 L118 84 L118 73 Z"/>
+                <path d="M118 133 L145 133 L145 144 L118 144 L118 133 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-                <path d="M161 63 L188 63 L188 74 L161 74 L161 63 Z"/>
+                <path d="M161 123 L188 123 L188 134 L161 134 L161 123 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
-                <path d="M161 82 L188 82 L188 93 L161 93 L161 82 Z"/>
+                <path d="M161 142 L188 142 L188 153 L161 153 L161 142 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
-                <path d="M246 40 L301 40 L301 57 L246 57 L246 40 Z"/>
+                <path d="M246 100 L301 100 L301 117 L246 117 L246 100 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
-                <path d="M246 73 L265 73 L265 84 L246 84 L246 73 Z"/>
+                <path d="M246 133 L265 133 L265 144 L246 144 L246 133 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
-                <path d="M282 63 L301 63 L301 74 L282 74 L282 63 Z"/>
+                <path d="M282 123 L301 123 L301 134 L282 134 L282 123 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
-                <path d="M282 73 L301 73 L301 84 L282 84 L282 73 Z"/>
+                <path d="M282 133 L301 133 L301 144 L282 144 L282 133 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21">
-                <path d="M282 83 L301 83 L301 94 L282 94 L282 83 Z"/>
+                <path d="M282 143 L301 143 L301 154 L282 154 L282 143 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
                 <path d="M347 40 L440 40 L440 57 L347 57 L347 40 Z"/>
@@ -114,22 +114,22 @@
                 <path d="M402 193 L441 193 L441 204 L402 204 L402 193 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
-                <path d="M-1 -1 L891 -1 L891 462 L-1 462 L-1 -1 Z"/>
+                <path d="M-1 -1 L567 -1 L567 481 L-1 481 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-miterlimit="0" stroke-width="0"
            font-family="&apos;Arial&apos;" stroke-linejoin="round">
-            <text xml:space="preserve" x="25" y="131"
+            <text xml:space="preserve" x="25" y="191"
                   clip-path="url(#clipPath1)" stroke="none">Lee datos</text><text xml:space="preserve"
-                  x="133" y="131" clip-path="url(#clipPath2)" stroke="none">Node 2</text><text xml:space="preserve"
-                  x="253" y="131" clip-path="url(#clipPath3)" stroke="none">Node 3</text><text xml:space="preserve"
+                  x="133" y="191" clip-path="url(#clipPath2)" stroke="none">Node 2</text><text xml:space="preserve"
+                  x="253" y="191" clip-path="url(#clipPath3)" stroke="none">Node 3</text><text xml:space="preserve"
                   x="373" y="131" clip-path="url(#clipPath4)" stroke="none">Node 4</text><text xml:space="preserve"
                   x="493" y="91" clip-path="url(#clipPath5)" stroke="none">Node 5</text><text xml:space="preserve"
                   x="493" y="191" clip-path="url(#clipPath6)" stroke="none">Node 6</text><text xml:space="preserve"
                   x="373" y="251" clip-path="url(#clipPath7)" stroke="none">Node 7</text><text x="19"
-                  y="53" clip-path="url(#clipPath8)" stroke="none"
+                  y="113" clip-path="url(#clipPath8)" stroke="none"
                   font-weight="bold" xml:space="preserve">File Reader</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   transform="matrix(1,0,0,1,37,63)" width="32"
+                   transform="matrix(1,0,0,1,37,123)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath9)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -138,7 +138,7 @@ QAwDQ8QGbMIiL4b4lWiY4hcMBClPRZ00Z8m1L07l5T73TUQud3Or5Mjcw93XCD8k
 VzozNS6vUtPE2n+bqAz/fgEAAAAAAAAAAAAAAAAAAGCF+aaxUqs03nXc51CsmOcP
 A/INJ1T1pwYAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   transform="matrix(1,0,0,1,45,71)" width="16"
+                   transform="matrix(1,0,0,1,45,131)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath10)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -147,7 +147,7 @@ IAxDW8L9rzzFiFGzARvQ38Hj0RGAoB+K6MdYAOaQ7EISxiM/oBugJjeffClrry8x
 CAFOm6ePGYML4lnjng68W6hKdcAZA4a+cFtxSQcFlqMXPyWOrMvKARUAIiU4o5wj
 AAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   transform="matrix(1,0,0,1,37,102)" width="32"
+                   transform="matrix(1,0,0,1,37,162)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath11)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
@@ -164,13 +164,13 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath12)" points=" 69 74 78 78 69 83"
+                     clip-path="url(#clipPath12)" points=" 69 134 78 138 69 143"
                      stroke="none"/>
-            <text x="119" y="53" clip-path="url(#clipPath13)"
+            <text x="119" y="113" clip-path="url(#clipPath13)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Normalizer</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,137,63)" width="32"
+                   transform="matrix(1,0,0,1,137,123)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath9)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -180,7 +180,7 @@ ujI1Lq9S08Taf5uoDP9+AQAAAAAAAAAAAAAAAAAAYIX5prFSqzTmOu5rKFbM8xel
 UA0xDHJAMgAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,145,71)" width="16"
+                   transform="matrix(1,0,0,1,145,131)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath10)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -192,7 +192,7 @@ Jr8W99t+63oM/bjFoTjAo6f6H1DtAD+9x3h6Ft1aGgAAAABJRU5ErkJggg=="
                    xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,137,102)" width="32"
+                   transform="matrix(1,0,0,1,137,162)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath11)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
@@ -209,19 +209,19 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath14)" points=" 128 74 137 78 128 83"
-                     stroke="none"/>
+                     clip-path="url(#clipPath14)"
+                     points=" 128 134 137 138 128 143" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath15)" points=" 169 64 178 68 169 73"
-                     stroke="none"/>
+                     clip-path="url(#clipPath15)"
+                     points=" 169 124 178 128 169 133" stroke="none"/>
             <polygon fill="rgb(30,185,220)" text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath16)"
-                     points=" 169 83 178 83 178 92 169 92" stroke="none"/>
-            <text x="247" y="53" clip-path="url(#clipPath17)"
+                     points=" 169 143 178 143 178 152 169 152" stroke="none"/>
+            <text x="247" y="113" clip-path="url(#clipPath17)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">k-Means</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,257,63)" width="32"
+                   transform="matrix(1,0,0,1,257,123)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath9)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -231,7 +231,7 @@ fkiudGZqXF6lpom1/zZRGf79AgAAAAAAAAAAAAAAAAAAwArzTWOlVmm867jPoVgx
 zx+WuA1ASGKNdAAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,265,71)" width="16"
+                   transform="matrix(1,0,0,1,265,131)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath10)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -245,7 +245,7 @@ SAvg8AIHUD4QSMfh8+p/AuFgAFLDSCiaCAEAlfdyMkh2MW8AAAAASUVORK5CYII="
                    xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,257,102)" width="32"
+                   transform="matrix(1,0,0,1,257,162)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath11)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
@@ -262,17 +262,17 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath18)" points=" 248 74 257 78 248 83"
-                     stroke="none"/>
+                     clip-path="url(#clipPath18)"
+                     points=" 248 134 257 138 248 143" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath19)" points=" 289 64 298 68 289 73"
-                     stroke="none"/>
+                     clip-path="url(#clipPath19)"
+                     points=" 289 124 298 128 289 133" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath20)" points=" 289 74 298 78 289 83"
-                     stroke="none"/>
+                     clip-path="url(#clipPath20)"
+                     points=" 289 134 298 138 289 143" stroke="none"/>
             <polygon fill="rgb(20,105,175)" text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath21)"
-                     points=" 289 84 298 84 298 93 289 93" stroke="none"/>
+                     points=" 289 144 298 144 298 153 289 153" stroke="none"/>
             <text x="348" y="53" clip-path="url(#clipPath22)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Color Manager</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -481,12 +481,12 @@ YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath33)"
                      points=" 409 194 418 198 409 203" stroke="none"/>
-            <text x="25" y="131" clip-path="url(#clipPath1)"
+            <text x="25" y="191" clip-path="url(#clipPath1)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Lee datos</text><text x="133" y="131"
+                  xml:space="preserve">Lee datos</text><text x="133" y="191"
                   clip-path="url(#clipPath2)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Node 2</text><text x="253" y="131"
+                  xml:space="preserve">Node 2</text><text x="253" y="191"
                   clip-path="url(#clipPath3)"
                   text-rendering="optimizeLegibility" stroke="none"
                   xml:space="preserve">Node 3</text><text x="373" y="131"
@@ -501,12 +501,12 @@ YII=" xlink:actuate="onLoad"/>
                   xml:space="preserve">Node 6</text><text x="373" y="251"
                   clip-path="url(#clipPath7)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Node 7</text><text x="19" y="53"
+                  xml:space="preserve">Node 7</text><text x="19" y="113"
                   clip-path="url(#clipPath8)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">File Reader</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,37,63)" width="32"
+                   transform="matrix(1,0,0,1,37,123)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath9)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -516,7 +516,7 @@ VzozNS6vUtPE2n+bqAz/fgEAAAAAAAAAAAAAAAAAAGCF+aaxUqs03nXc51CsmOcP
 A/INJ1T1pwYAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,45,71)" width="16"
+                   transform="matrix(1,0,0,1,45,131)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath10)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -526,7 +526,7 @@ CAFOm6ePGYML4lnjng68W6hKdcAZA4a+cFtxSQcFlqMXPyWOrMvKARUAIiU4o5wj
 AAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,37,102)" width="32"
+                   transform="matrix(1,0,0,1,37,162)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath11)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
@@ -543,13 +543,13 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath12)" points=" 69 74 78 78 69 83"
+                     clip-path="url(#clipPath12)" points=" 69 134 78 138 69 143"
                      stroke="none"/>
-            <text x="119" y="53" clip-path="url(#clipPath13)"
+            <text x="119" y="113" clip-path="url(#clipPath13)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Normalizer</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,137,63)" width="32"
+                   transform="matrix(1,0,0,1,137,123)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath9)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -559,7 +559,7 @@ ujI1Lq9S08Taf5uoDP9+AQAAAAAAAAAAAAAAAAAAYIX5prFSqzTmOu5rKFbM8xel
 UA0xDHJAMgAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,145,71)" width="16"
+                   transform="matrix(1,0,0,1,145,131)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath10)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -571,7 +571,7 @@ Jr8W99t+63oM/bjFoTjAo6f6H1DtAD+9x3h6Ft1aGgAAAABJRU5ErkJggg=="
                    xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,137,102)" width="32"
+                   transform="matrix(1,0,0,1,137,162)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath11)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
@@ -588,19 +588,19 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath14)" points=" 128 74 137 78 128 83"
-                     stroke="none"/>
+                     clip-path="url(#clipPath14)"
+                     points=" 128 134 137 138 128 143" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath15)" points=" 169 64 178 68 169 73"
-                     stroke="none"/>
+                     clip-path="url(#clipPath15)"
+                     points=" 169 124 178 128 169 133" stroke="none"/>
             <polygon fill="rgb(30,185,220)" text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath16)"
-                     points=" 169 83 178 83 178 92 169 92" stroke="none"/>
-            <text x="247" y="53" clip-path="url(#clipPath17)"
+                     points=" 169 143 178 143 178 152 169 152" stroke="none"/>
+            <text x="247" y="113" clip-path="url(#clipPath17)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">k-Means</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,257,63)" width="32"
+                   transform="matrix(1,0,0,1,257,123)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath9)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -610,7 +610,7 @@ fkiudGZqXF6lpom1/zZRGf79AgAAAAAAAAAAAAAAAAAAwArzTWOlVmm867jPoVgx
 zx+WuA1ASGKNdAAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,265,71)" width="16"
+                   transform="matrix(1,0,0,1,265,131)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath10)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -624,7 +624,7 @@ SAvg8AIHUD4QSMfh8+p/AuFgAFLDSCiaCAEAlfdyMkh2MW8AAAAASUVORK5CYII="
                    xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,257,102)" width="32"
+                   transform="matrix(1,0,0,1,257,162)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath11)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
@@ -641,17 +641,17 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath18)" points=" 248 74 257 78 248 83"
-                     stroke="none"/>
+                     clip-path="url(#clipPath18)"
+                     points=" 248 134 257 138 248 143" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath19)" points=" 289 64 298 68 289 73"
-                     stroke="none"/>
+                     clip-path="url(#clipPath19)"
+                     points=" 289 124 298 128 289 133" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath20)" points=" 289 74 298 78 289 83"
-                     stroke="none"/>
+                     clip-path="url(#clipPath20)"
+                     points=" 289 134 298 138 289 143" stroke="none"/>
             <polygon fill="rgb(20,105,175)" text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath21)"
-                     points=" 289 84 298 84 298 93 289 93" stroke="none"/>
+                     points=" 289 144 298 144 298 153 289 153" stroke="none"/>
             <text x="348" y="53" clip-path="url(#clipPath22)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Color Manager</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -865,17 +865,17 @@ YII=" xlink:actuate="onLoad"/>
            font-family="&apos;Segoe UI&apos;" stroke-linecap="butt"
            stroke="rgb(150,150,150)">
             <line clip-path="url(#clipPath34)" fill="none" x1="298" x2="306"
-                  y1="68" y2="68"/>
+                  y1="128" y2="128"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="306" x2="359"
-                  y1="68" y2="207"/>
+                  y1="128" y2="207"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="359" x2="367"
                   y1="207" y2="207"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="78" x2="86"
-                  y1="78" y2="78"/>
+                  y1="138" y2="138"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="86" x2="119"
-                  y1="78" y2="78"/>
+                  y1="138" y2="138"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="119" x2="127"
-                  y1="78" y2="78"/>
+                  y1="138" y2="138"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="418" x2="426"
                   y1="68" y2="68"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="426" x2="479"
@@ -883,11 +883,11 @@ YII=" xlink:actuate="onLoad"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="479" x2="487"
                   y1="138" y2="138"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="178" x2="186"
-                  y1="68" y2="68"/>
+                  y1="128" y2="128"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="186" x2="239"
-                  y1="68" y2="78"/>
+                  y1="128" y2="138"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="239" x2="247"
-                  y1="78" y2="78"/>
+                  y1="138" y2="138"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="418" x2="426"
                   y1="68" y2="68"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="426" x2="479"
@@ -895,15 +895,15 @@ YII=" xlink:actuate="onLoad"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="479" x2="487"
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="298" x2="306"
-                  y1="68" y2="68"/>
+                  y1="128" y2="128"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="306" x2="359"
-                  y1="68" y2="188"/>
+                  y1="128" y2="188"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="359" x2="367"
                   y1="188" y2="188"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="298" x2="306"
-                  y1="68" y2="68"/>
+                  y1="128" y2="128"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="306" x2="359"
-                  y1="68" y2="78"/>
+                  y1="128" y2="78"/>
             <line clip-path="url(#clipPath34)" fill="none" x1="359" x2="367"
                   y1="78" y2="78"/>
         </g>
