@@ -10,7 +10,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="numberClusters" type="xint" value="3"/>
+<entry key="numberClusters" type="xint" value="7"/>
 <config key="distFunction_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -20,7 +20,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="linkageType" type="xstring" value="SINGLE"/>
+<entry key="linkageType" type="xstring" value="COMPLETE"/>
 <config key="cacheDistances_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -32,25 +32,25 @@
 </config>
 <config key="selectedColumns">
 <config key="InclList">
-<entry key="array-size" type="xint" value="13"/>
+<entry key="array-size" type="xint" value="9"/>
 <entry key="0" type="xstring" value="3M"/>
 <entry key="1" type="xstring" value="3A"/>
-<entry key="2" type="xstring" value="FTM"/>
-<entry key="3" type="xstring" value="FTA"/>
-<entry key="4" type="xstring" value="TR"/>
-<entry key="5" type="xstring" value="AS"/>
-<entry key="6" type="xstring" value="ST"/>
-<entry key="7" type="xstring" value="TO"/>
-<entry key="8" type="xstring" value="BK"/>
-<entry key="9" type="xstring" value="PF"/>
-<entry key="10" type="xstring" value="DQ"/>
-<entry key="11" type="xstring" value="PTS"/>
-<entry key="12" type="xstring" value="TC"/>
+<entry key="2" type="xstring" value="TR"/>
+<entry key="3" type="xstring" value="AS"/>
+<entry key="4" type="xstring" value="ST"/>
+<entry key="5" type="xstring" value="TO"/>
+<entry key="6" type="xstring" value="BK"/>
+<entry key="7" type="xstring" value="PF"/>
+<entry key="8" type="xstring" value="DQ"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="Min"/>
-<entry key="1" type="xstring" value="+/-"/>
+<entry key="1" type="xstring" value="FTM"/>
+<entry key="2" type="xstring" value="FTA"/>
+<entry key="3" type="xstring" value="PTS"/>
+<entry key="4" type="xstring" value="TC"/>
+<entry key="5" type="xstring" value="+/-"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -82,6 +82,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="382776af-3079-4979-bad4-ef4f9864660f"/>
+<entry key="file_store_id" type="xstring" value="d63bc970-6776-4d4d-a41b-9eb431d606ee"/>
 </config>
 </config>

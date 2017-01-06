@@ -18,7 +18,7 @@
                 <path d="M24 178 L81 178 L81 195 L24 195 L24 178 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
-                <path d="M132 178 L174 178 L174 195 L132 195 L132 178 Z"/>
+                <path d="M122 178 L184 178 L184 195 L122 195 L122 178 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
                 <path d="M252 178 L294 178 L294 195 L252 195 L252 178 Z"/>
@@ -111,14 +111,14 @@
                 <path d="M476 33 L505 33 L505 44 L476 44 L476 33 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath33">
-                <path d="M-1 -1 L600 -1 L600 481 L-1 481 L-1 -1 Z"/>
+                <path d="M-1 -1 L964 -1 L964 505 L-1 505 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-miterlimit="0" stroke-width="0"
            font-family="&apos;Arial&apos;" stroke-linejoin="round">
             <text xml:space="preserve" x="25" y="191"
                   clip-path="url(#clipPath1)" stroke="none">Lee datos</text><text xml:space="preserve"
-                  x="133" y="191" clip-path="url(#clipPath2)" stroke="none">Node 2</text><text xml:space="preserve"
+                  x="123" y="191" clip-path="url(#clipPath2)" stroke="none">Normalizar</text><text xml:space="preserve"
                   x="253" y="191" clip-path="url(#clipPath3)" stroke="none">Node 3</text><text xml:space="preserve"
                   x="373" y="251" clip-path="url(#clipPath4)" stroke="none">Node 4</text><text xml:space="preserve"
                   x="373" y="131" clip-path="url(#clipPath5)" stroke="none">Node 5</text><text xml:space="preserve"
@@ -475,10 +475,10 @@ YII=" xlink:actuate="onLoad"/>
                      stroke="none"/>
             <text x="25" y="191" clip-path="url(#clipPath1)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Lee datos</text><text x="133" y="191"
+                  xml:space="preserve">Lee datos</text><text x="123" y="191"
                   clip-path="url(#clipPath2)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Node 2</text><text x="253" y="191"
+                  xml:space="preserve">Normalizar</text><text x="253" y="191"
                   clip-path="url(#clipPath3)"
                   text-rendering="optimizeLegibility" stroke="none"
                   xml:space="preserve">Node 3</text><text x="373" y="251"

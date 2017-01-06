@@ -270,3 +270,15 @@ El primer método de agrupamiento que vamos a utilizar es el método de las k-me
 Los resultados del agrupamiento han dado una calidad de 0.331 que podría parecer baja, pero al visualizar la correspondencia posición por grupo generado nos podemos dar cuenta que los grupos generados parecen corresponderse bastante con lo predicho anteriormente. Entre los *center* están casi todos son pívots y ala pívots y la mayoría de los bases están en el grupo de los *guard*. El grupo de *forward* contiene casi todos los aleros y escoltas y algunos bases, pívots y ala pívots.
 
 !["Grupo-posición k-medias"](img/agrupamiento/scatter-plot-k-means.png)
+
+#### K-medioides
+
+Se ha probado siguiendo el mismo enfoque que el mencionado con las k-medias el método de los k-medioides usando el nodo de KNIME *k-Medoids* usando la distancia Manhattan. El resultado ha sido similar obteniendo un ajuste de 0.306.
+
+!["Grupo-posición k-medias"](img/agrupamiento/scatter-plot-k-medoids.png)
+
+#### K-medias difusas
+
+Siguiendo con los métodos de agrupamiento no supervisados particionales se ha probado el de las k-medias difusas usando el nodo de KNIME *Fuzzy c-Means* obteniendo un resultado similar al de las k-medias: 0.329.
+
+!["Grupo-posición k-medias"](img/agrupamiento/scatter-plot-fuzzy-k-means.png)
