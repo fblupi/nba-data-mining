@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="15"/>
+<entry key="number_columns" type="xint" value="14"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="PS"/>
 <config key="element_names">
@@ -48,30 +48,6 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_1">
-<entry key="column_name" type="xstring" value="Min"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
-<config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="102"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
-<config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="3121"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_2">
 <entry key="column_name" type="xstring" value="3M"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -95,7 +71,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_3">
+<config key="column_spec_2">
 <entry key="column_name" type="xstring" value="3A"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -119,7 +95,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_4">
+<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="FTM"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -143,7 +119,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_5">
+<config key="column_spec_4">
 <entry key="column_name" type="xstring" value="FTA"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -167,7 +143,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_6">
+<config key="column_spec_5">
 <entry key="column_name" type="xstring" value="TR"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -191,7 +167,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_7">
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="AS"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -215,7 +191,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_8">
+<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="ST"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -239,7 +215,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_9">
+<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="TO"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -263,7 +239,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_10">
+<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="BK"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -287,7 +263,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_11">
+<config key="column_spec_10">
 <entry key="column_name" type="xstring" value="PF"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -311,7 +287,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_12">
+<config key="column_spec_11">
 <entry key="column_name" type="xstring" value="DQ"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -335,7 +311,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_13">
+<config key="column_spec_12">
 <entry key="column_name" type="xstring" value="PTS"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -359,7 +335,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_14">
+<config key="column_spec_13">
 <entry key="column_name" type="xstring" value="TC"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>

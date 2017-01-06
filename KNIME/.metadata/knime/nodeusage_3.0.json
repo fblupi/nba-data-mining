@@ -6,25 +6,25 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
-                "nrexecs":16,
+                "nrexecs":17,
                 "nrfails":2,
-                "exectime":3816,
+                "exectime":3985,
                 "nrcreated":3,
                 "successor":"org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer"
             },
             {
                 "id":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
-                "nrexecs":36,
+                "nrexecs":38,
                 "nrfails":0,
-                "exectime":7598,
+                "exectime":7783,
                 "nrcreated":4,
                 "successor":"org.knime.base.node.viz.table.TableNodeFactory#Interactive Table"
             },
             {
                 "id":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot",
-                "nrexecs":34,
+                "nrexecs":36,
                 "nrfails":0,
-                "exectime":6533,
+                "exectime":6873,
                 "nrcreated":5,
                 "successor":"n/a"
             },
@@ -126,9 +126,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
-                "nrexecs":13,
+                "nrexecs":15,
                 "nrfails":0,
-                "exectime":1764,
+                "exectime":1955,
                 "nrcreated":7,
                 "successor":"org.knime.ext.weka37.clusterassign.ClusterAssignerNodeFactory#Weka Cluster Assigner (3.7)"
             },
@@ -190,17 +190,17 @@
             },
             {
                 "id":"org.knime.base.node.viz.table.TableNodeFactory#Interactive Table",
-                "nrexecs":11,
+                "nrexecs":13,
                 "nrfails":0,
-                "exectime":2186,
+                "exectime":2399,
                 "nrcreated":1,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer",
-                "nrexecs":26,
+                "nrexecs":28,
                 "nrfails":0,
-                "exectime":3375,
+                "exectime":3647,
                 "nrcreated":4,
                 "successor":"n/a"
             },
@@ -214,41 +214,41 @@
             },
             {
                 "id":"org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory#String Replace (Dictionary)",
-                "nrexecs":1,
+                "nrexecs":2,
                 "nrfails":0,
-                "exectime":113,
+                "exectime":187,
                 "nrcreated":2,
-                "successor":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
+                "successor":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer"
             },
             {
                 "id":"org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
-                "nrexecs":2,
+                "nrexecs":26,
                 "nrfails":0,
-                "exectime":226,
+                "exectime":2298,
                 "nrcreated":1,
-                "successor":"org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3#Decision Tree Learner"
+                "successor":"org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3#Decision Tree Learner",
-                "nrexecs":2,
+                "nrexecs":16,
                 "nrfails":0,
-                "exectime":401,
+                "exectime":2400,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor",
-                "nrexecs":2,
+                "nrexecs":16,
                 "nrfails":0,
-                "exectime":4954,
+                "exectime":6750,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory#Scorer"
             },
             {
                 "id":"org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory#Scorer",
-                "nrexecs":3,
+                "nrexecs":30,
                 "nrfails":0,
-                "exectime":365,
+                "exectime":4349,
                 "nrcreated":1,
                 "successor":"n/a"
             },
@@ -290,7 +290,7 @@
                 "nrfails":0,
                 "exectime":1214,
                 "nrcreated":1,
-                "successor":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer"
+                "successor":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
             },
             {
                 "id":"org.knime.distance.measure.numerical.NumericalDistanceNodeFactory#Numeric Distances",
@@ -307,6 +307,30 @@
                 "exectime":213,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer"
+            },
+            {
+                "id":"org.knime.base.node.mine.bayes.naivebayes.learner2.NaiveBayesLearnerNodeFactory3#Naive Bayes Learner",
+                "nrexecs":12,
+                "nrfails":0,
+                "exectime":1920,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2#Naive Bayes Predictor"
+            },
+            {
+                "id":"org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2#Naive Bayes Predictor",
+                "nrexecs":12,
+                "nrfails":0,
+                "exectime":2412,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.viz.roc.ROCNodeFactory#ROC Curve"
+            },
+            {
+                "id":"org.knime.base.node.viz.roc.ROCNodeFactory#ROC Curve",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
             }
         ],
         "metaNodes":{
@@ -314,11 +338,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":5614089,
-    "workflowsOpened":30,
+    "uptime":6071076,
+    "workflowsOpened":46,
     "remoteWorkflowsOpened":0,
     "launches":9,
-    "timeSinceLastStart":18388425,
+    "timeSinceLastStart":22501304,
     "crashes":0,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }
