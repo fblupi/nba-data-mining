@@ -300,3 +300,29 @@ Los errores que nos encontramos son en la mayoría de las ocasiones comprensible
 Tras probar el árbol de decisión pasamos a probar cómo funciona el método de *Naive-Bayes* usando los nodos de KNIME *Naive Bayes Learner* y *Naive Bayes Predictor* y haciendo el mismo particionamiento obteniendo un resultado algo mejor de un 61%.
 
 !["Clasificación Naive-Bayes"](img/clasificacion/naive-bayes-predictor-confusion-matrix.png)
+
+Los errores son muy similares a los obtenidos con el árbol de decisión equivocándose bastante en la posición de alero.
+
+#### C4.5 de Quinlann
+
+Ahora vamos a probar algunas de las técnicas de WEKA esperando obtener mejores resultados. En primer lugar probaremos el clasificador C4.5 de Quinlann usando los nodos *J48graft* y *Weka Predictor*. Usando el mismo conjunto de entrenamiento y test que en las dos técnicas anteriores se ha mejorado el resultado hasta obtener un 63%.
+
+!["Clasificación C4.5 de Quinlann"](img/clasificacion/j48graft-predictor-confusion-matrix.png)
+
+Con este clasificador se empieza a bajar el error en la posición de alero, aunque sigue sin acertar ni el 50% de estos.
+
+#### *Random forest*
+
+Siguiendo con técnicas de WEKA pasamos a usar *Random forest* usando los nodos *RandomForest* y *Weka Predictor*. Los resultados han sido incluso mejores que los que se han obtenido con el C4.5 de Quinlann alcanzando un 68%.
+
+!["Clasificación Random Forest"](img/clasificacion/random-forest-predictor-confusion-matrix.png)
+
+Con este clasificador se obtienen estos porcentajes de acierto por posición:
+
+* Base: 76% (escolta: 16% y 8% alero)
+* Escolta: 71.43% (alero: 14.29%, 9,52% base y 4.76% ala-pívot)
+* Alero: 50% (31.25% escolta, 12.5% ala-pívot y 6.25% base)
+* Ala-pívot: 70% (20% pívot, 5% escolta y 5% base)
+* Pívot: 66.67% (errores: 27.78% pívot y 5.55% alero)
+
+Vemos que la mayoría de los fallos son con posiciones similares y posiblemente sean jugadores que incluso hayan jugado algún partido en esa posición.

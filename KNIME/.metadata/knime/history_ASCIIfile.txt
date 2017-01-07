@@ -1,5 +1,5 @@
+knime://knime.workflow/data.all
 file:/C:/Users/fboli/Documents/GitHub/nba-data-mining/datasets/NBA1516_2.csv
 file:/C:/Users/fboli/Documents/GitHub/nba-data-mining/datasets/NBA1516.csv
-knime://knime.workflow/data.all
 file:/C:/Users/fboli/Documents/GitHub/nba-data-mining/datasets/15-16RD.txt
 knime://knime.workflow/iris.csv
