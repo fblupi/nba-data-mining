@@ -326,3 +326,95 @@ Con este clasificador se obtienen estos porcentajes de acierto por posición:
 Vemos que la mayoría de los fallos son con posiciones similares y posiblemente sean jugadores que incluso hayan jugado algún partido en esa posición.
 
 ### Regresión
+
+En esta sección vamos a intentar predecir los valores de algunos datos a partir de otros. Para ello se hará uso de la matriz de correlación (nodo *Linear Correlation*) que ya se analizó por encima en la sección de pre-procesamiento y de la matriz de gráficos de dispersión (nodo *Scatter Matrix*) entre cada variable.
+
+!["Matriz de correlación"](img/regresion/correlation-matrix.png)
+
+!["Matriz de gráficos de dispersión"](img/regresion/scatter-matrix.png)
+
+La relación entre variables no es muy alta en la mayoría de los casos. Las más altas serían:
+
+* Puntos: Tiros libres anotados (0.7493) y minutos (0.4601)
+* Asistencias: Pérdidas (0.6689) y robos (0.3773)
+* Rebotes: Bloqueos (0.7024) y faltas personales (0.4474)
+
+Por tanto vamos a intentar deducir el valor de los puntos, asistencias y rebotes usando para cada una otras dos variables. Para ello vamos a usar los nodos de KNIME *Linear Regression Learner* para crear la función de regresión y *Regression Predictor* para calcular los resultados obtenidos con esta función. Se volverá a evaluar la relación entre los valores generados y los reales para ver la calidad de la regresión.
+
+#### Puntos
+
+Para calcular los puntos usamos los tiros libres anotados y los minutos:
+
+!["Regresión lineal puntos"](img/regresion/pts-linear-regression.png)
+
+La función generada comparada con los datos de tiros libres anotados es la siguiente:
+
+!["Función regresión y tiros libres anotados"](img/regresion/pts-ftm.png)
+
+La función generada comparada con los datos de minutos es la siguiente:
+
+!["Función regresión y minutos"](img/regresion/pts-min.png)
+
+La nueva matriz de correlación es:
+
+!["Matriz de correlación puntos"](img/regresion/pts-correlation-matrix.png)
+
+Con una correlación de:
+
+* 0.7663 en puntos originales
+* 0.8742 en tiros libres anotados
+* 0.7432 en minutos
+
+!["Gráfico de dispersión puntos generados y originales"](img/regresion/pts-scatter-plot.png)
+
+#### Asistencias
+
+Para calcular los puntos usamos las pérdidas y los robos:
+
+!["Regresión lineal asistencias"](img/regresion/as-linear-regression.png)
+
+La función generada comparada con los datos de pérdidas es la siguiente:
+
+!["Función regresión y bloqueos"](img/regresion/as-to.png)
+
+La función generada comparada con los datos de robos es la siguiente:
+
+!["Función regresión y faltas personales"](img/regresion/as-st.png)
+
+La nueva matriz de correlación es:
+
+!["Matriz de correlación asistencias"](img/regresion/as-correlation-matrix.png)
+
+Con una correlación de:
+
+* 0.6713 en asistencias originales
+* 0.7775 en pérdidas
+* 0.7835 en robos
+
+!["Gráfico de dispersión asistencias generadas y originales"](img/regresion/as-scatter-plot.png)
+
+#### Rebotes
+
+Para calcular los puntos usamos los bloqueos y las faltas personales:
+
+!["Regresión lineal rebotes"](img/regresion/tr-linear-regression.png)
+
+La función generada comparada con los datos de bloqueos es la siguiente:
+
+!["Función regresión y bloqueos"](img/regresion/tr-bk.png)
+
+La función generada comparada con los datos de faltas personales es la siguiente:
+
+!["Función regresión y faltas personales"](img/regresion/tr-pf.png)
+
+La nueva matriz de correlación es:
+
+!["Matriz de correlación rebotes"](img/regresion/tr-correlation-matrix.png)
+
+Con una correlación de:
+
+* 0.7162 en rebotes originales
+* 0.9958 en bloqueos
+* 0.4806 en faltas personales
+
+!["Gráfico de dispersión rebotes generados y originales"](img/regresion/tr-scatter-plot.png)

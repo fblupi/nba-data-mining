@@ -22,9 +22,9 @@
             },
             {
                 "id":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot",
-                "nrexecs":48,
+                "nrexecs":51,
                 "nrfails":0,
-                "exectime":8417,
+                "exectime":8855,
                 "nrcreated":8,
                 "successor":"n/a"
             },
@@ -78,9 +78,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
-                "nrexecs":18,
+                "nrexecs":21,
                 "nrfails":0,
-                "exectime":7943,
+                "exectime":8564,
                 "nrcreated":5,
                 "successor":"org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner"
             },
@@ -178,7 +178,7 @@
                 "nrfails":0,
                 "exectime":890,
                 "nrcreated":1,
-                "successor":"org.knime.base.node.preproc.bitvector.create.CreateBitVectorNodeFactory#Create Bit Vector"
+                "successor":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
@@ -342,17 +342,17 @@
             },
             {
                 "id":"org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner",
-                "nrexecs":6,
+                "nrexecs":9,
                 "nrfails":4,
-                "exectime":2895,
+                "exectime":3275,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor",
-                "nrexecs":2,
+                "nrexecs":5,
                 "nrfails":0,
-                "exectime":311,
+                "exectime":727,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot"
             },
@@ -490,11 +490,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4596541,
-    "workflowsOpened":62,
+    "uptime":4552916,
+    "workflowsOpened":64,
     "remoteWorkflowsOpened":0,
-    "launches":14,
-    "timeSinceLastStart":73634,
+    "launches":15,
+    "timeSinceLastStart":2021814,
     "crashes":0,
     "properlyShutDown":false
 }
