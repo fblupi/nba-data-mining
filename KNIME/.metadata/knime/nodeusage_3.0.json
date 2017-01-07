@@ -490,11 +490,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4552916,
+    "uptime":4594947,
     "workflowsOpened":64,
     "remoteWorkflowsOpened":0,
     "launches":15,
-    "timeSinceLastStart":2021814,
+    "timeSinceLastStart":2652283,
     "crashes":0,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }

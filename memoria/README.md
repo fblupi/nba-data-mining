@@ -418,3 +418,5 @@ Con una correlación de:
 * 0.4806 en faltas personales
 
 !["Gráfico de dispersión rebotes generados y originales"](img/regresion/tr-scatter-plot.png)
+
+Ninguna de las variables se podría intuir con precisión a partir de otra pues la correlación que resulta con los valores originales en puntos es de 0.7663, en asistencias 0.6713 y en rebotes 0.7162, que son valores no demasiado altos. Pero es comprensible y demuestra como en el baloncesto es difícil predecir el valor de una variable a partir de otras pues las cualidades de los jugadores son muy distintas.

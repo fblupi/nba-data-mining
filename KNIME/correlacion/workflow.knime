@@ -7,10 +7,10 @@
 <entry key="authored-by" type="xstring" value="fboli"/>
 <entry key="authored-when" type="xstring" value="2017-01-06 18:16:48 +0100"/>
 <entry key="lastEdited-by" type="xstring" value="fboli"/>
-<entry key="lastEdited-when" type="xstring" value="2017-01-07 13:54:25 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2017-01-07 20:27:10 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
@@ -351,25 +351,25 @@
 </config>
 <config key="connection_13">
 <entry key="sourceID" type="xint" value="11"/>
-<entry key="destID" type="xint" value="12"/>
+<entry key="destID" type="xint" value="10"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_14">
 <entry key="sourceID" type="xint" value="11"/>
-<entry key="destID" type="xint" value="10"/>
+<entry key="destID" type="xint" value="12"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_15">
 <entry key="sourceID" type="xint" value="14"/>
-<entry key="destID" type="xint" value="16"/>
+<entry key="destID" type="xint" value="13"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_16">
 <entry key="sourceID" type="xint" value="14"/>
-<entry key="destID" type="xint" value="13"/>
+<entry key="destID" type="xint" value="16"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
