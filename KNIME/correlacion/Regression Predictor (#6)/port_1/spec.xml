@@ -603,7 +603,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_17">
-<entry key="column_name" type="xstring" value="Prediction (TR)"/>
+<entry key="column_name" type="xstring" value="Prediction (PTS)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -614,13 +614,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0018579867411211357"/>
+<entry key="DoubleCell" type="xdouble" value="0.04596886967981457"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0205616940538491"/>
+<entry key="DoubleCell" type="xdouble" value="1.0727370604475222"/>
 </config>
 </config>
 </config>

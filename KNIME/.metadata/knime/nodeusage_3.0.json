@@ -22,9 +22,9 @@
             },
             {
                 "id":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot",
-                "nrexecs":47,
+                "nrexecs":48,
                 "nrfails":0,
-                "exectime":8256,
+                "exectime":8417,
                 "nrcreated":8,
                 "successor":"n/a"
             },
@@ -78,9 +78,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
-                "nrexecs":17,
+                "nrexecs":18,
                 "nrfails":0,
-                "exectime":7638,
+                "exectime":7943,
                 "nrcreated":5,
                 "successor":"org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner"
             },
@@ -342,17 +342,17 @@
             },
             {
                 "id":"org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner",
-                "nrexecs":5,
+                "nrexecs":6,
                 "nrfails":4,
-                "exectime":1905,
+                "exectime":2895,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor",
-                "nrexecs":1,
+                "nrexecs":2,
                 "nrfails":0,
-                "exectime":147,
+                "exectime":311,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot"
             },
@@ -490,11 +490,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4944457,
-    "workflowsOpened":61,
+    "uptime":4596541,
+    "workflowsOpened":62,
     "remoteWorkflowsOpened":0,
-    "launches":13,
-    "timeSinceLastStart":212665,
+    "launches":14,
+    "timeSinceLastStart":73634,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }

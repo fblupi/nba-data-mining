@@ -2,8 +2,6 @@
 
 > Francisco Javier Bolívar Lupiáñez
 
-> José Manuel Moya Baena
-
 ## Introducción
 
 El baloncesto es un deporte donde se pueden rescatar, más fácilmente que en otros deportes de equipo como el fútbol, las estadísticas individuales y relevantes de cada jugador pero el uso que se hacen de ellas es muy pobre pues en la mayoría de las webs solo acaban mostrando quiénes son los jugadores que más puntos, rebotes y asistencias por partido hacen.
@@ -326,3 +324,5 @@ Con este clasificador se obtienen estos porcentajes de acierto por posición:
 * Pívot: 66.67% (errores: 27.78% pívot y 5.55% alero)
 
 Vemos que la mayoría de los fallos son con posiciones similares y posiblemente sean jugadores que incluso hayan jugado algún partido en esa posición.
+
+### Regresión
