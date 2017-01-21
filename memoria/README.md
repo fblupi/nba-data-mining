@@ -6,7 +6,7 @@
 
 El baloncesto es un deporte donde se pueden rescatar, más fácilmente que en otros deportes de equipo como el fútbol, las estadísticas individuales y relevantes de cada jugador pero el uso que se hacen de ellas es muy pobre pues en la mayoría de las webs solo acaban mostrando quiénes son los jugadores que más puntos, rebotes y asistencias por partido hacen.
 
-Es por ello que vemos en este un buen campo para realizar minería de datos, por lo que el *dataset* escogido ha sido el de las estadísticas individuales de cada jugador durante la temporada 2012/2016.
+Es por ello que vemos en este un buen campo para realizar minería de datos, por lo que el *dataset* escogido ha sido el de las estadísticas individuales de cada jugador durante la temporada 2015/2016 extraídas de la web: http://www.dougstats.com/index2.html
 
 ### *Dataset*
 

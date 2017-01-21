@@ -6,9 +6,9 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
-                "nrexecs":22,
+                "nrexecs":23,
                 "nrfails":2,
-                "exectime":5419,
+                "exectime":5644,
                 "nrcreated":3,
                 "successor":"org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer"
             },
@@ -22,9 +22,9 @@
             },
             {
                 "id":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot",
-                "nrexecs":51,
+                "nrexecs":54,
                 "nrfails":0,
-                "exectime":8855,
+                "exectime":9301,
                 "nrcreated":8,
                 "successor":"n/a"
             },
@@ -78,9 +78,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
-                "nrexecs":21,
+                "nrexecs":26,
                 "nrfails":0,
-                "exectime":8564,
+                "exectime":9556,
                 "nrcreated":5,
                 "successor":"org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner"
             },
@@ -126,9 +126,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
-                "nrexecs":17,
+                "nrexecs":19,
                 "nrfails":0,
-                "exectime":2423,
+                "exectime":2703,
                 "nrcreated":7,
                 "successor":"org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory#X-Partitioner"
             },
@@ -174,17 +174,17 @@
             },
             {
                 "id":"org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer",
-                "nrexecs":7,
+                "nrexecs":9,
                 "nrfails":0,
-                "exectime":890,
+                "exectime":1386,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
-                "nrexecs":11,
+                "nrexecs":13,
                 "nrfails":0,
-                "exectime":2086,
+                "exectime":2597,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer"
             },
@@ -214,17 +214,17 @@
             },
             {
                 "id":"org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory#String Replace (Dictionary)",
-                "nrexecs":2,
+                "nrexecs":4,
                 "nrfails":0,
-                "exectime":187,
+                "exectime":423,
                 "nrcreated":2,
                 "successor":"org.knime.base.node.mine.scorer.entrop.NewEntropyNodeFactory#Entropy Scorer"
             },
             {
                 "id":"org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
-                "nrexecs":40,
+                "nrexecs":50,
                 "nrfails":0,
-                "exectime":3377,
+                "exectime":4175,
                 "nrcreated":1,
                 "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory#Weka Predictor (3.7)"
             },
@@ -246,9 +246,9 @@
             },
             {
                 "id":"org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory#Scorer",
-                "nrexecs":63,
+                "nrexecs":73,
                 "nrfails":0,
-                "exectime":7752,
+                "exectime":8581,
                 "nrcreated":1,
                 "successor":"n/a"
             },
@@ -342,17 +342,17 @@
             },
             {
                 "id":"org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2#Linear Regression Learner",
-                "nrexecs":9,
+                "nrexecs":15,
                 "nrfails":4,
-                "exectime":3275,
+                "exectime":5525,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor"
             },
             {
                 "id":"org.knime.base.node.mine.regression.predict2.RegressionPredictorNodeFactory#Regression Predictor",
-                "nrexecs":5,
+                "nrexecs":10,
                 "nrfails":0,
-                "exectime":727,
+                "exectime":1647,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot"
             },
@@ -454,17 +454,17 @@
             },
             {
                 "id":"org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory#Weka Predictor (3.7)",
-                "nrexecs":204,
+                "nrexecs":214,
                 "nrfails":0,
-                "exectime":16524,
+                "exectime":17587,
                 "nrcreated":2,
                 "successor":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
             },
             {
                 "id":"org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#RandomForest (3.7)",
-                "nrexecs":152,
+                "nrexecs":162,
                 "nrfails":0,
-                "exectime":14738,
+                "exectime":16287,
                 "nrcreated":1,
                 "successor":"org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory#Weka Predictor (3.7)"
             },
@@ -490,11 +490,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4017930,
-    "workflowsOpened":66,
+    "uptime":4118751,
+    "workflowsOpened":67,
     "remoteWorkflowsOpened":0,
     "launches":18,
-    "timeSinceLastStart":358710,
+    "timeSinceLastStart":2173478,
     "crashes":0,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }
