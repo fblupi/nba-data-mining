@@ -325,6 +325,14 @@ Con este clasificador se obtienen estos porcentajes de acierto por posición:
 
 Vemos que la mayoría de los fallos son con posiciones similares y posiblemente sean jugadores que incluso hayan jugado algún partido en esa posición.
 
+##### Clasificación usando el *cluster* previamente definido
+
+Viendo que a la hora de clasificar por posición daba la mayor parte de sus fallos con posiciones parecidas se ha probado a realizar la clasificación por el *cluster* que se definió previamente agrupando en *guard*, *forward* y *center*:
+
+!["Clasificación Random Forest con Cluster"](img/clasificacion/random-forest-predictor-with-cluster-confusion-matrix.png)
+
+El resultado obtenido es muy bueno, pues se ha pasado a un 98% de acierto. Era lógico que iba a subir pues se ha pasado de clasificar de cinco a tres clases por lo que la probabilidad de acertar pasa de 1/5 a 1/3. Pero esto no quita mérito a la enorme mejora que se ha realizado cambiando el paradigma de clasificar en cinco posiciones a tres.
+
 ### Regresión
 
 En esta sección vamos a intentar predecir los valores de algunos datos a partir de otros. Para ello se hará uso de la matriz de correlación (nodo *Linear Correlation*) que ya se analizó por encima en la sección de pre-procesamiento y de la matriz de gráficos de dispersión (nodo *Scatter Matrix*) entre cada variable.

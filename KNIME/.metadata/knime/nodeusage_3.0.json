@@ -10,7 +10,7 @@
                 "nrfails":2,
                 "exectime":5419,
                 "nrcreated":3,
-                "successor":"org.knime.base.node.mine.pca.PCANodeFactory#PCA"
+                "successor":"org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer"
             },
             {
                 "id":"org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
@@ -490,11 +490,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4594947,
-    "workflowsOpened":64,
+    "uptime":4017930,
+    "workflowsOpened":66,
     "remoteWorkflowsOpened":0,
-    "launches":15,
-    "timeSinceLastStart":2652283,
+    "launches":18,
+    "timeSinceLastStart":358710,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }
